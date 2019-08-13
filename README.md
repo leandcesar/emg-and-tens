@@ -2,11 +2,13 @@
 
 Simple [EMG](https://en.wikipedia.org/wiki/Electromyography) and [TENS](https://en.wikipedia.org/wiki/Transcutaneous_electrical_nerve_stimulation) circuits for your arm to "control" someone else's arm.
 
+[Leia em português](https://github.com/leandcesar/emg-and-tens/blob/master/README-ptbr.md).
+
 ## About
 
-Inspired on [Backyard Brains](https://backyardbrains.com), i designed circuits to use your muscle signal (with EMG) to excite and contract another human's muscle (with TENS). For more infos, read the post "[Experiment: Advanced NeuroProsthetics: Take Someone's Free Will](https://backyardbrains.com/experiments/humanhumaninterface)" and/or watch Greg Gage's video "[How to control someone else's arm with your brain](https://www.ted.com/talks/greg_gage_how_to_control_someone_else_s_arm_with_your_brain?)" on TED.
+Inspired on [Backyard Brains](https://backyardbrains.com), I designed circuits to use your muscle signal (with EMG) to excite and contract another human's muscle (with TENS). For more infos, read the post "[Experiment: Advanced NeuroProsthetics: Take Someone's Free Will](https://backyardbrains.com/experiments/humanhumaninterface)" and/or watch Greg Gage's video "[How to control someone else's arm with your brain](https://www.ted.com/talks/greg_gage_how_to_control_someone_else_s_arm_with_your_brain?)" on TED.
 
-[![Assista ao vídeo](http://i3.ytimg.com/vi/rSQNi5sAwuc/maxresdefault.jpg)](https://www.youtube.com/watch?v=rSQNi5sAwuc)
+[![Watch the video](http://i3.ytimg.com/vi/rSQNi5sAwuc/maxresdefault.jpg)](https://www.ted.com/talks/greg_gage_how_to_control_someone_else_s_arm_with_your_brain?)
 
 ## EMG
 
@@ -68,7 +70,7 @@ void loop() {
 }
 ```
 
-## Experimental Procedure
+## Experimental procedure
 
 1. Place three surface EMG electrodes close to each other on the forearm.
 2. Using the alligator clips, connect the middle electrode to EMG ground and the two others electrodes to EMG inputs.
@@ -77,7 +79,7 @@ void loop() {
 5. Begin with the TENS device turned into the lowest setting.
 6. Slowly begin to turn up the power of the TENS device until you see a response.
 
-**Important:** if pulls their electrodes off before the TENS device is turned off it will cause the circuit to short and constantly send stimulation to the controlled. Avoid this! To disarm the experiment, first turn off the TENS device totally.
+**Important:** if pulls their electrodes off before the TENS device is turned off it will cause the circuit to short and constantly send stimulation. Avoid this! To disarm the experiment, first turn off the TENS device totally.
 
 **Note**: a TENS unit by definition delivers enough current to cause muscle contraction. Do not place electrodes across the muscles of the throat or the chest.
 
