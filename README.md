@@ -21,13 +21,18 @@ Electromyography (EMG) is an electrodiagnostic technique for evaluating and reco
 - 2x 1N4148;
 - 1x Potentiometer 200K ohm;
 - Capacitors: 1uF (3x) and 0.01uF (1x);
-- Resistors: 1M ohm (2x), 10K ohm (2x), 1K ohm (2x), 150K ohm (4x) and 80.2K ohm (1x).
+- Resistors: 1M ohm (2x), 10K ohm (2x), 1K ohm (1x), 150K ohm (4x) and 82K ohm (1x).
 
 #### Schematic
 
 The [Proteus](https://www.labcenter.com/) schematic file can be seen [here](https://github.com/leandcesar/emg-and-tens/blob/master/EMG).
 
-![EMG schematic](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG.png)
+![EMG schematic](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG-sch.png)
+
+#### Protoboard
+
+![EMG protoboard](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG-proto.png)
+
 
 ## TENS
 

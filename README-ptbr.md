@@ -21,13 +21,17 @@ A eletromiografia (EMG) é uma técnica eletrodiagnóstica para avaliar e regist
 - 2x 1N4148;
 - 1x Potenciometro 200K ohm;
 - Capacitores: 1uF (3x) e 0.01uF (1x);
-- Resistores: 1M ohm (2x), 10K ohm (2x), 1K ohm (2x), 150K ohm (4x) e 80.2K ohm (1x).
+- Resistores: 1M ohm (2x), 10K ohm (2x), 1K ohm (1x), 150K ohm (4x) e 82K ohm (1x).
 
 #### Esquemático
 
 O arquivo do esquemático em [Proteus](https://www.labcenter.com/) pode ser visto [aqui](https://github.com/leandcesar/emg-and-tens/blob/master/EMG).
 
-![Esquemático EMG](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG.png)
+![Esquemático do EMG](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG-sch.png)
+
+#### Protoboard
+
+![EMG protoboard](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG-proto.png)
 
 ## TENS
 
