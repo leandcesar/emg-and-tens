@@ -33,7 +33,6 @@ The [Proteus](https://www.labcenter.com/) schematic file can be seen [here](http
 
 ![EMG protoboard](https://github.com/leandcesar/emg-and-tens/blob/master/EMG/EMG-proto.png)
 
-
 ## TENS
 
 Transcutaneous electrical nerve stimulation (TENS) is the use of electric current produced by a device to stimulate the nerves for therapeutic purposes.The unit is usually connected to the skin using two or more electrodes. A typical battery-operated TENS unit is able to modulate pulse width, frequency and intensity.
@@ -41,7 +40,7 @@ Transcutaneous electrical nerve stimulation (TENS) is the use of electric curren
 #### Components 
 
 - 2x 555;
-- 1x 2N3053;
+- 1x 2N3055;
 - 1x TIP122;
 - 1x 7805;
 - 1x Transformer 12V 100mA (~8:1);
@@ -55,7 +54,11 @@ Transcutaneous electrical nerve stimulation (TENS) is the use of electric curren
 
 The Proteus schematic file can be seen [here](https://github.com/leandcesar/emg-and-tens/blob/master/TENS).
 
-![TENS schematic](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS.png)
+![TENS schematic](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS-sch.png)
+
+#### Protoboard
+
+![TENS protoboard](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS-proto.png)
 
 ## Arduino (optional)
 

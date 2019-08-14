@@ -40,7 +40,7 @@ Neuroestimulação elétrica transcutânea (TENS) é o uso de corrente elétrica
 #### Componentes 
 
 - 2x 555;
-- 1x 2N3053;
+- 1x 2N3055;
 - 1x TIP122;
 - 1x 7805;
 - 1x Transformer 12V 100mA (~8:1);
@@ -54,7 +54,11 @@ Neuroestimulação elétrica transcutânea (TENS) é o uso de corrente elétrica
 
 O arquivo do esquemático em [Proteus](https://www.labcenter.com/) pode ser visto [aqui](https://github.com/leandcesar/emg-and-tens/blob/master/TENS).
 
-![Esquemático do TENS](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS.png)
+![Esquemático do TENS](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS-sch.png)
+
+#### Protoboard
+
+![TENS protoboard](https://github.com/leandcesar/emg-and-tens/blob/master/TENS/TENS-proto.png)
 
 ## Arduino (opcional)
 
